@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12CE19F41E25784D0062D873 /* PKHUDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19F31E25784D0062D873 /* PKHUDDemoUITests.swift */; };
 		12CE19FD1E2578680062D873 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996321E19514FD8001F73CA /* PKHUD.framework */; };
 		F996320219514FAC001F73CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996320119514FAC001F73CA /* AppDelegate.swift */; };
 		F996323319514FD8001F73CA /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996321E19514FD8001F73CA /* PKHUD.framework */; };
@@ -62,8 +61,6 @@
 
 /* Begin PBXFileReference section */
 		12CE19F11E25784C0062D873 /* PKHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12CE19F31E25784D0062D873 /* PKHUDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDDemoUITests.swift; sourceTree = "<group>"; };
-		12CE19F51E25784D0062D873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99631FC19514FAC001F73CA /* PKHUD Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PKHUD Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F996320019514FAC001F73CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F996320119514FAC001F73CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,21 +96,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12CE19F21E25784D0062D873 /* PKHUDDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				12CE19F31E25784D0062D873 /* PKHUDDemoUITests.swift */,
-				12CE19F51E25784D0062D873 /* Info.plist */,
-			);
-			path = PKHUDDemoUITests;
-			sourceTree = "<group>";
-		};
 		F99631F319514FAC001F73CA = {
 			isa = PBXGroup;
 			children = (
 				F99631FE19514FAC001F73CA /* PKHUD Demo */,
 				F996321F19514FD8001F73CA /* PKHUD */,
-				12CE19F21E25784D0062D873 /* PKHUDDemoUITests */,
 				F99631FD19514FAC001F73CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -308,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CE19F41E25784D0062D873 /* PKHUDDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
